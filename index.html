@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harry Potter RPG</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ;>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ;>
+
+            <div class="character_selection">
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <p id="prompts">Choose your Wizard!</p>
+
+                        <div id="characterOptions">
+                            <div class="character" id="HarryPotter"><img src="assets/images/HarryPotter.jpg" alt="Harry Potter">
+                                <p>Harry Potter</p>
+                                <p class="HPdisplay" id="HarryPotterHP">2000 HP</p>
+                            </div>
+
+                            <div class="character" id="HermioneGranger"><img src="assets/images/HermioneGranger.jpg"
+                                    alt="Hermione Granger">
+                                <P>Hermione</P>
+                                <p class="HPdisplay" id="HermioneGrangerHP">2000 HP</p>
+                            </div>
+
+                            <div class="character" id="DracoMalfoy"><img src="assets/images/DracoMalfoy.jpg" alt="DracoMalfoy">
+                                <p>Draco</p>
+                                <p class="HPdisplay" id="DracoMalfoyHP">300 HP</p>
+                            </div>
+
+                            <div class="character" id="LordVoldemort"><img src="assets/images/LordVoldemort.jpg" alt="LordVoldemort">
+                                <p>Voldemort</p>
+                                <p class="HPdisplay" id="LordVoldemortHP">3000 HP</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id="opponentOptions"></div>
+
+                </div>
+
+            </div>
+
+            <div class="battle_display">
+
+                <div class="row">
+
+                    <div class="col-lg-2">
+                        <div class="leftPortal_image"></div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div id="character_display"></div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="score_display"></div>
+                        <p id="duel"></p>
+                        <div id="messageLog">
+                            <p> </p>
+                        </div>
+                        <button class="attackButton">ATTACK!</button>
+                        <button class="restartButton">RESTART!</button>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div id="enemy_display"></div>
+                        <div class="enemyOpponents"></div>
+                        <div class="opponentSelected"></div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="rightPortal_image"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer id="mainFooter" class="text-light fixed-bottom">
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-lg-12">
+                    <small>Copyright &copy; 2018 Josh Speakman</small>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
