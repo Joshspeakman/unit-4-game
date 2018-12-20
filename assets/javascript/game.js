@@ -99,7 +99,7 @@ $(".character").on("click", function () {
             HarryPotterRPG.characterObject = HermioneGranger;
 
             $("#character_display").append(HermioneGrangerDiv);
-            $("#HermioneGranger").html('<p>Hermione</p> <img src="assets/images/playerHermione.jpg" height="275"> <p id="HermioneGrangerHP">1825 HP</p>');
+            $("#HermioneGranger").html('<p>Hermione</p> <img src="assets/images/playerHermione.jpg" height="275"> <p id="HermioneGrangerHP">2000 HP</p>');
         }
 
         if (HarryPotterRPG.characterSelected == "DracoMalfoy") {
@@ -107,14 +107,14 @@ $(".character").on("click", function () {
             HarryPotterRPG.characterObject = DracoMalfoy;
 
             $("#character_display").append(DracoMalfoyDiv);
-            $("#DracoMalfoy").html('<p>Draco</p> <img src="assets/images/playerMalfoy.png" height="275"> <p id="DracoMalfoyHP">1750 HP</p>');
+            $("#DracoMalfoy").html('<p>Draco</p> <img src="assets/images/playerMalfoy.png" height="275"> <p id="DracoMalfoyHP">300 HP</p>');
         }
         if (HarryPotterRPG.characterSelected == "LordVoldemort") {
             vold.play();
             HarryPotterRPG.characterObject = LordVoldemort;
 
             $("#character_display").append(LordVoldemortDiv);
-            $("#LordVoldemort").html('<p>Voldemort</p> <img src="assets/images/playerVoldemort.jpg" height="275"> <p id="LordVoldemortHP">1750 HP</p>');
+            $("#LordVoldemort").html('<p>Voldemort</p> <img src="assets/images/playerVoldemort.jpg" height="275"> <p id="LordVoldemortHP">3000 HP</p>');
         }
 
         HarryPotterRPG.gameStage = "opponents"
